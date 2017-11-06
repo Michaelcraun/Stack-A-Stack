@@ -7,27 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B8F96B1C8009665A9511C04 /* Pods_StackTheStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C084EEE0CA82F418EB6C86C /* Pods_StackTheStack.framework */; };
+		9BF8FC9B1FB085D80030E423 /* multiplierUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8FC9A1FB085D80030E423 /* multiplierUp.mp3 */; };
+		9BF8FC9D1FB0F8B60030E423 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8FC9C1FB0F8B60030E423 /* GoogleService-Info.plist */; };
 		9BFE80FF1FA8F636008BD56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE80FE1FA8F636008BD56E /* AppDelegate.swift */; };
 		9BFE81011FA8F636008BD56E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE81001FA8F636008BD56E /* GameScene.sks */; };
-		9BFE81031FA8F636008BD56E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE81021FA8F636008BD56E /* Actions.sks */; };
 		9BFE81051FA8F636008BD56E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE81041FA8F636008BD56E /* GameScene.swift */; };
 		9BFE81071FA8F636008BD56E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE81061FA8F636008BD56E /* GameViewController.swift */; };
 		9BFE810A1FA8F636008BD56E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE81081FA8F636008BD56E /* Main.storyboard */; };
 		9BFE810C1FA8F636008BD56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE810B1FA8F636008BD56E /* Assets.xcassets */; };
 		9BFE810F1FA8F636008BD56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE810D1FA8F636008BD56E /* LaunchScreen.storyboard */; };
+		9BFE811D1FA8F958008BD56E /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE811C1FA8F958008BD56E /* GameElements.swift */; };
+		9BFE811F1FA90311008BD56E /* GameFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE811E1FA90311008BD56E /* GameFunctions.swift */; };
+		9BFE81211FAA03FA008BD56E /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE81201FAA03FA008BD56E /* GameOverScene.sks */; };
+		9BFE81241FAA0626008BD56E /* GameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE81231FAA0626008BD56E /* GameHandler.swift */; };
+		9BFE81271FAA075D008BD56E /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE81261FAA075D008BD56E /* GameOverScene.swift */; };
+		9BFE81291FAA145A008BD56E /* objectPlaced.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE81281FAA145A008BD56E /* objectPlaced.mp3 */; };
+		9BFE812B1FAA16AC008BD56E /* gameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE812A1FAA16AC008BD56E /* gameMusic.mp3 */; };
+		9BFE812D1FAA1A08008BD56E /* objectMisplaced.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE812C1FAA1A08008BD56E /* objectMisplaced.mp3 */; };
+		9BFE812F1FAA398C008BD56E /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE812E1FAA398C008BD56E /* StartScene.sks */; };
+		9BFE81321FAA3A5D008BD56E /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE81311FAA3A5D008BD56E /* StartScene.swift */; };
+		9BFE81341FAA3E83008BD56E /* buttonPressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE81331FAA3E83008BD56E /* buttonPressed.mp3 */; };
+		9BFE81361FAA4182008BD56E /* StartElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE81351FAA4182008BD56E /* StartElements.swift */; };
+		9BFE81381FAA49B1008BD56E /* GameOverElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE81371FAA49B1008BD56E /* GameOverElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		349438F1633290E9C3B97347 /* Pods-StackTheStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackTheStack.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackTheStack/Pods-StackTheStack.release.xcconfig"; sourceTree = "<group>"; };
+		5AD0BEF4B8969B7C6E5E3CFE /* Pods-StackTheStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackTheStack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackTheStack/Pods-StackTheStack.debug.xcconfig"; sourceTree = "<group>"; };
+		6C084EEE0CA82F418EB6C86C /* Pods_StackTheStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackTheStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF8FC9A1FB085D80030E423 /* multiplierUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = multiplierUp.mp3; sourceTree = "<group>"; };
+		9BF8FC9C1FB0F8B60030E423 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9BFE80FB1FA8F636008BD56E /* StackTheStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackTheStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFE80FE1FA8F636008BD56E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BFE81001FA8F636008BD56E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9BFE81021FA8F636008BD56E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9BFE81041FA8F636008BD56E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9BFE81061FA8F636008BD56E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9BFE81091FA8F636008BD56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BFE810B1FA8F636008BD56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BFE810E1FA8F636008BD56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BFE81101FA8F636008BD56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFE811C1FA8F958008BD56E /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		9BFE811E1FA90311008BD56E /* GameFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFunctions.swift; sourceTree = "<group>"; };
+		9BFE81201FAA03FA008BD56E /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		9BFE81231FAA0626008BD56E /* GameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHandler.swift; sourceTree = "<group>"; };
+		9BFE81261FAA075D008BD56E /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		9BFE81281FAA145A008BD56E /* objectPlaced.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = objectPlaced.mp3; sourceTree = "<group>"; };
+		9BFE812A1FAA16AC008BD56E /* gameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameMusic.mp3; sourceTree = "<group>"; };
+		9BFE812C1FAA1A08008BD56E /* objectMisplaced.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = objectMisplaced.mp3; sourceTree = "<group>"; };
+		9BFE812E1FAA398C008BD56E /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		9BFE81311FAA3A5D008BD56E /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		9BFE81331FAA3E83008BD56E /* buttonPressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonPressed.mp3; sourceTree = "<group>"; };
+		9BFE81351FAA4182008BD56E /* StartElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartElements.swift; sourceTree = "<group>"; };
+		9BFE81371FAA49B1008BD56E /* GameOverElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B8F96B1C8009665A9511C04 /* Pods_StackTheStack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +77,14 @@
 		9BFE80F21FA8F636008BD56E = {
 			isa = PBXGroup;
 			children = (
+				9BFE81221FAA0614008BD56E /* Utilities */,
+				9BFE811A1FA8F694008BD56E /* Controller */,
+				9BFE81191FA8F679008BD56E /* Scenes */,
+				9BFE81161FA8F643008BD56E /* Assets */,
 				9BFE80FD1FA8F636008BD56E /* StackTheStack */,
 				9BFE80FC1FA8F636008BD56E /* Products */,
+				BC5B95862CBB1448DE09A86A /* Pods */,
+				A0BF6176FA7FB405964853D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,16 +100,115 @@
 			isa = PBXGroup;
 			children = (
 				9BFE80FE1FA8F636008BD56E /* AppDelegate.swift */,
-				9BFE81001FA8F636008BD56E /* GameScene.sks */,
-				9BFE81021FA8F636008BD56E /* Actions.sks */,
-				9BFE81041FA8F636008BD56E /* GameScene.swift */,
-				9BFE81061FA8F636008BD56E /* GameViewController.swift */,
 				9BFE81081FA8F636008BD56E /* Main.storyboard */,
-				9BFE810B1FA8F636008BD56E /* Assets.xcassets */,
 				9BFE810D1FA8F636008BD56E /* LaunchScreen.storyboard */,
 				9BFE81101FA8F636008BD56E /* Info.plist */,
+				9BF8FC9C1FB0F8B60030E423 /* GoogleService-Info.plist */,
 			);
 			path = StackTheStack;
+			sourceTree = "<group>";
+		};
+		9BFE81161FA8F643008BD56E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE81181FA8F652008BD56E /* Images */,
+				9BFE81171FA8F64C008BD56E /* Sound */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9BFE81171FA8F64C008BD56E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE81331FAA3E83008BD56E /* buttonPressed.mp3 */,
+				9BFE812A1FAA16AC008BD56E /* gameMusic.mp3 */,
+				9BF8FC9A1FB085D80030E423 /* multiplierUp.mp3 */,
+				9BFE812C1FAA1A08008BD56E /* objectMisplaced.mp3 */,
+				9BFE81281FAA145A008BD56E /* objectPlaced.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		9BFE81181FA8F652008BD56E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE810B1FA8F636008BD56E /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9BFE81191FA8F679008BD56E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE812E1FAA398C008BD56E /* StartScene.sks */,
+				9BFE81001FA8F636008BD56E /* GameScene.sks */,
+				9BFE81201FAA03FA008BD56E /* GameOverScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9BFE811A1FA8F694008BD56E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE81061FA8F636008BD56E /* GameViewController.swift */,
+				9BFE81301FAA3A4C008BD56E /* Start */,
+				9BFE811B1FA8F69E008BD56E /* Game */,
+				9BFE81251FAA074A008BD56E /* GameOver */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BFE811B1FA8F69E008BD56E /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE81041FA8F636008BD56E /* GameScene.swift */,
+				9BFE811C1FA8F958008BD56E /* GameElements.swift */,
+				9BFE811E1FA90311008BD56E /* GameFunctions.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		9BFE81221FAA0614008BD56E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE81231FAA0626008BD56E /* GameHandler.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9BFE81251FAA074A008BD56E /* GameOver */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE81261FAA075D008BD56E /* GameOverScene.swift */,
+				9BFE81371FAA49B1008BD56E /* GameOverElements.swift */,
+			);
+			path = GameOver;
+			sourceTree = "<group>";
+		};
+		9BFE81301FAA3A4C008BD56E /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE81311FAA3A5D008BD56E /* StartScene.swift */,
+				9BFE81351FAA4182008BD56E /* StartElements.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		A0BF6176FA7FB405964853D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C084EEE0CA82F418EB6C86C /* Pods_StackTheStack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC5B95862CBB1448DE09A86A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AD0BEF4B8969B7C6E5E3CFE /* Pods-StackTheStack.debug.xcconfig */,
+				349438F1633290E9C3B97347 /* Pods-StackTheStack.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BFE81131FA8F636008BD56E /* Build configuration list for PBXNativeTarget "StackTheStack" */;
 			buildPhases = (
+				4BAB7360C577F04E86ECD82D /* [CP] Check Pods Manifest.lock */,
 				9BFE80F71FA8F636008BD56E /* Sources */,
 				9BFE80F81FA8F636008BD56E /* Frameworks */,
 				9BFE80F91FA8F636008BD56E /* Resources */,
+				FDA8095F7EB7529BB9149F1A /* [CP] Embed Pods Frameworks */,
+				7016441A32BEBACD8AADFE86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,24 +273,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFE81341FAA3E83008BD56E /* buttonPressed.mp3 in Resources */,
+				9BFE812F1FAA398C008BD56E /* StartScene.sks in Resources */,
+				9BFE812D1FAA1A08008BD56E /* objectMisplaced.mp3 in Resources */,
+				9BFE812B1FAA16AC008BD56E /* gameMusic.mp3 in Resources */,
+				9BFE81211FAA03FA008BD56E /* GameOverScene.sks in Resources */,
+				9BF8FC9D1FB0F8B60030E423 /* GoogleService-Info.plist in Resources */,
 				9BFE810A1FA8F636008BD56E /* Main.storyboard in Resources */,
+				9BFE81291FAA145A008BD56E /* objectPlaced.mp3 in Resources */,
 				9BFE81011FA8F636008BD56E /* GameScene.sks in Resources */,
 				9BFE810C1FA8F636008BD56E /* Assets.xcassets in Resources */,
+				9BF8FC9B1FB085D80030E423 /* multiplierUp.mp3 in Resources */,
 				9BFE810F1FA8F636008BD56E /* LaunchScreen.storyboard in Resources */,
-				9BFE81031FA8F636008BD56E /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BAB7360C577F04E86ECD82D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7016441A32BEBACD8AADFE86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackTheStack/Pods-StackTheStack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA8095F7EB7529BB9149F1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackTheStack/Pods-StackTheStack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BFE80F71FA8F636008BD56E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFE811F1FA90311008BD56E /* GameFunctions.swift in Sources */,
+				9BFE81241FAA0626008BD56E /* GameHandler.swift in Sources */,
+				9BFE81271FAA075D008BD56E /* GameOverScene.swift in Sources */,
+				9BFE81361FAA4182008BD56E /* StartElements.swift in Sources */,
+				9BFE81381FAA49B1008BD56E /* GameOverElements.swift in Sources */,
+				9BFE811D1FA8F958008BD56E /* GameElements.swift in Sources */,
 				9BFE81051FA8F636008BD56E /* GameScene.swift in Sources */,
 				9BFE81071FA8F636008BD56E /* GameViewController.swift in Sources */,
 				9BFE80FF1FA8F636008BD56E /* AppDelegate.swift in Sources */,
+				9BFE81321FAA3A5D008BD56E /* StartScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,31 +487,33 @@
 		};
 		9BFE81141FA8F636008BD56E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD0BEF4B8969B7C6E5E3CFE /* Pods-StackTheStack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96SB47X67B;
 				INFOPLIST_FILE = StackTheStack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CraunicProductions.StackTheStack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CraunicProductions.StackAStack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9BFE81151FA8F636008BD56E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349438F1633290E9C3B97347 /* Pods-StackTheStack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96SB47X67B;
 				INFOPLIST_FILE = StackTheStack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CraunicProductions.StackTheStack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CraunicProductions.StackAStack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
